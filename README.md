@@ -26,3 +26,17 @@ This Python script combines multiple information-gathering features into one too
    ```bash
    git clone https://github.com/your-username/info-gathering-tool.git
    cd info-gathering-tool
+## Install dependencies:
+   ```bash
+      pip install -r requirements.txt
+
+## Uses
+```bash
+   python3 info_gathering.py -d example.com
+   python3 info_gathering.py -i 8.8.8.8 --shodan YOUR_SHODAN_API_KEY
+
+
+## Example
+## Domain Analysis
+```bash
+   python3 info_gathering.py -i 8.8.8.8 --shodan YOUR_API_KEY
