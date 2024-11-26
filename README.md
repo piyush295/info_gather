@@ -24,7 +24,7 @@ This Python script combines multiple information-gathering features into one too
 ## Installation and uses
 1. Clone the repository:
    ```bash
-   https://github.com/piyush295/info_gathering.git
+   git clone https://github.com/piyush295/info_gathering.git
    cd info-gathering-tool
    python3 info_gathering.py -d example.com
    python3 info_gathering.py -i 8.8.8.8 --shodan YOUR_SHODAN_API_KEY
