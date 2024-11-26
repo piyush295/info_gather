@@ -1,5 +1,4 @@
 import argparse
-import whois
 import dns.resolver
 import requests
 import shodan
